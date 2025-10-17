@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "MyFirebaseApp",
+    "slug": "MyFirebaseApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.username.myfirebaseapp",
+      "googleServicesFile": "./GoogleService-Info.plist"
+    },
+    "android": {
+      "package": "com.username.myfirebaseapp",
+      "googleServicesFile": "./google-services.json"
+    },
+    "plugins": [
+      "@react-native-firebase/app"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "f33676df-63d4-4018-841a-cd80545b9cad"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/f33676df-63d4-4018-841a-cd80545b9cad"
+    }
+  }
+}
